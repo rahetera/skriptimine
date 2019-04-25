@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+# tervitusskript
+#
+echo -n "Tere, " # väljastab ilma reavaheta Tere (-n)
+echo -n "lugeja" 
+echo "!" 
+#
+#skripti lõpp
