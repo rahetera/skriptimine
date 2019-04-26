@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "Rainer Rahe"
+echo "ISP218" 
+echo "See on tavaline"
+echo "Sain targemask selle käigus"
+date 
+#
