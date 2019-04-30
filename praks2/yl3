@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+echo -n "$(tput setaf 1)Teie asute praegu$(tput sgr 0) " && "pwd"
+echo -n "$(tput setab 4)Teie nimi on " && "whoami"
+for i in 1 2 3 4
+do 
+echo "Tere $i"
+done
+#
