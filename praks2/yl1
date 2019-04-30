@@ -1,0 +1,17 @@
+#!/bin/bash
+#
+echo -n "Tere, " 
+echo -n "lugeja"
+echo "!"
+echo "----- ---- |---| ---- |"
+echo "  |   |    |   | |    |"
+echo "  |   |--- |---- |--- |"
+echo "  |   |    |\    |     " 
+echo "  |   ---- | \   ---- o" 
+echo " "
+echo "Rainer Rahe"
+echo "ISP218"
+echo -n "Täna on " && "date"
+#
+#
+
