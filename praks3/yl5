@@ -1,0 +1,9 @@
+#!/bin/bash
+#start
+echo "Today is $(date +%A,%B%d,%Y)"
+echo -n "Time is " && date +%T
+echo " "
+echo -n  "Calender of February " && date +%Y
+cal
+#
+#end
