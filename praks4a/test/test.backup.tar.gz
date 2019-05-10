@@ -1,4 +1,5 @@
 #!/bin/bash
-cp /home/skriptrainer/skriptimine/praks4a/test/*.txt /home/skriptrainer/skriptimine/praks4a/backup/
-cp -r /home/skriptrainer/skriptimine/praks4a/test/kaust/ /home/skriptrainer/skriptimine/praks4a/backup/
+read -p "Kausta nimi Backup-i jaoks: " nimi
+cp /home/skriptrainer/skriptimine/praks4a/$nimi/*.txt /home/skriptrainer/skriptimine/praks4a/backup/
+cp -r /home/skriptrainer/skriptimine/praks4a/$nimi/* /home/skriptrainer/skriptimine/praks4a/backup/
 #
