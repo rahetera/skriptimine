@@ -1,0 +1,9 @@
+#!/bin/bash
+echo -n "Reisijate arv: "
+read inimesi
+echo -n "Kohtade arv: " 
+read istekohti
+busse=`expr $inimesi / $istekohti`
+mahajaab=`expr $inimesi % $istekohti`
+echo "$busse bussi täitub ja maha jääb $mahajaab inimest"
+#
