@@ -1,0 +1,8 @@
+#!/bin/bash
+read -p "Sisesta oma nimi: " nimi
+echo "Tere tulemast, $nimi!"
+echo " "
+read -p "Sisesta oma sünniaasta: " aasta
+vanus=`expr 2019 - $aasta`
+echo "$nimi, sina oled $vanus vana"
+#
