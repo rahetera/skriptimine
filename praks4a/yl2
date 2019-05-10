@@ -1,0 +1,8 @@
+#!/bin/bash
+read -p "Sisesta oma ringi raadius(cm): " raadius
+r2=`expr $raadius \* $raadius`
+pindala=`expr 3.14\*$r2 | bc`
+raadius2=`expr 2 \* $raadius`
+umbermoot=`expr 3.14\*$raadius2 | bc`
+echo "Ringi pindala on $pindala cm2 ja ümbermõõt on $umbermoot cm"
+#
