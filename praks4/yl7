@@ -1,0 +1,17 @@
+#!/bin/bash
+echo -n "Küpsetusplaadi laius: "
+read laius
+echo -n "küpsetusplaadi pikkus: "
+read pikkus
+echo -n "Küpsise pindala(cm2): "
+read kupsis
+echo -n "Kihtide arv: "
+read kihte
+echo -n "Küpsiseid pakis: "
+read pakke
+plaat=`expr $laius \* $pikkus`
+suurus=`expr $plaat / $kupsis`
+kihtidearv=`expr $suurus \* $kihte`
+vpakke=`expr $kihtidearv / $pakke`
+echo "Kokku on vaja $vpakke pakki"
+#
