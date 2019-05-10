@@ -1,0 +1,4 @@
+#!/bin/bash
+cp /home/skriptrainer/skriptimine/praks4a/test/*.txt /home/skriptrainer/skriptimine/praks4a/backup/
+cp -r /home/skriptrainer/skriptimine/praks4a/test/kaust/ /home/skriptrainer/skriptimine/praks4a/backup/
+#
