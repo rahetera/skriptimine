@@ -1,0 +1,6 @@
+#!/bin/bash
+echo -n "Arvuti töötamis aeg: "
+uptime -p
+echo -n "Süsteem on töödanud: "
+uptime -s
+#
