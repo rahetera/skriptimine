@@ -1,0 +1,16 @@
+#!/bin/bash
+echo -n -e "\e[1m"
+read -p "Palju on Reisijaid: " inimesi
+read -p "Kohti Bussis: " kohti
+echo -n -e "\e[21m"
+jaak=$(expr $inimesi % $kohti)
+taitub=$(expr $inimesi / $kohti)
+echo -e "\e[32m$taitub bussi täitub täielikult"
+echo -e "\e[31m$jaak jääb üle\e[39m"
+if [ $jaak != 0 ]
+then 
+vaja=$(expr $taitub + 1)
+fi
+echo -e "\e[33mbusse oleks tegelikult vaja $vaja" 
+echo -n -e "\e[39m"
+#
