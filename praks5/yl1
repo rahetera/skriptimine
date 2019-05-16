@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "Täisnurkse kolmnurga hüpotenuusi arvutamine!"
+echo -n "Kaatet a: " 
+read a
+read -p "Kaatet b: " b
+c=$(echo "scale=2;sqrt ($a^2+$b^2)" | bc)
+echo "hüpotenus c= $c"
+#
