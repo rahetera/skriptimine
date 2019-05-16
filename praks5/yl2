@@ -1,0 +1,8 @@
+#!/bin/bash	
+read -p "Sisesta a külje pikkus: " a
+read -p "Sisesta b külje pikkus: " b
+read -p "Sisesta c külje pikkus: " c
+abc=$(echo "scale=2;($a+$b+$c)/2" | bc)
+pindala=$(echo "scale=2;sqrt($abc*($abc-$a)*($abc-$b)*($abc-$c))" | bc)
+echo "Kolmnurga pindala S= $pindala"
+#
