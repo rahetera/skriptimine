@@ -1,0 +1,8 @@
+#!/bin/bash
+echo -e "\e[1mPühapäev - 0, Esmaspäev - 1; Teisipäev - 2,... Laupäev - 6"
+read -p "Sisesta päev millal ära sõidate: " ara
+read -p "Kaua te ära olete(ööpäevad): " oopaevad
+paevadmaha=$(($oopaevad%7))
+tagasi=$(($ara+$paevadmaha))
+echo -e "Te olete tagasi \e[32m$tagasi \e[39mpäeval"
+#
