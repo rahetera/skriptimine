@@ -1,0 +1,12 @@
+#!/bin/bash	
+for (( a=1; a<11; a++ ))
+do
+jaak=$(($a % 2))
+if [ $jaak -eq 0 ]
+then
+summa=$(($summa + $a))
+echo $summa
+fi
+done 
+echo "1-10 vahemikus olevate paarisarvude summa on: $summa"
+#
