@@ -1,0 +1,21 @@
+#!/bin/bash		
+read -p "Sisesta täisarv: " a
+if [ $a -eq 0 -o $a -eq 1 ]
+then 
+echo "$a ei ole algarv"
+else 
+jagaja=2 
+j=$(($a % $jagaja))
+while [ $j -ne 0 ]
+do
+jagaja=$(($jagaja + 1))
+j=$(($a % $jagaja))
+done 
+if [ $a -eq $jagaja ]
+then 
+echo "$a on algarv"
+else 
+echo "$a ei ole algarv"
+fi
+fi
+#
