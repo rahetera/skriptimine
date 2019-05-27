@@ -1,0 +1,12 @@
+#!/bin/bash	
+read -p "Sisesta suvaline täisarv: " a
+summa=0
+c=$a
+while [ $a -ne 0 ] 
+do
+j=$(($a%10))
+summa$(($summa+$jaak))
+b=$(($b/10))
+done
+echo "Arvude $c summa on $summa"
+#
